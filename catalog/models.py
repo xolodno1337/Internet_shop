@@ -41,8 +41,8 @@ class Product(models.Model):
         verbose_name="Цена",
         help_text="Введите цену",
     )
-    date_creation = models.DateField(verbose_name="Дата создания")
-    date_change = models.DateTimeField(verbose_name="Дата последнего изменения")
+    created_at = models.DateField(verbose_name="Дата создания")
+    updated_at = models.DateTimeField(verbose_name="Дата последнего изменения")
 
     def __str__(self):
         return f"{self.product_name}: {self.price}"
