@@ -29,11 +29,18 @@ class Product(models.Model):
     )
     product_category = models.ForeignKey(
         Category,
-        on_delete=models.CASCADE,
+        on_delete=models.SET_NULL,
         verbose_name="Категория",
         help_text="Введите категорию продукта",
+        null=True,
+        blank=True
     )
-    price = models.DecimalField(verbose_name="Цена", help_text="Введите цену")
+    price = models.DecimalField(
+        max_digits=10,
+        decimal_places=2,
+        verbose_name="Цена",
+        help_text="Введите цену",
+    )
     date_creation = models.DateField(verbose_name="Дата создания")
     date_change = models.DateTimeField(verbose_name="Дата последнего изменения")
 
