@@ -26,6 +26,8 @@ class Product(models.Model):
         upload_to="picture_product/",
         verbose_name="Изображение",
         help_text="Загрузите фото продукта",
+        null=True,
+        blank=True,
     )
     product_category = models.ForeignKey(
         Category,
@@ -33,7 +35,7 @@ class Product(models.Model):
         verbose_name="Категория",
         help_text="Введите категорию продукта",
         null=True,
-        blank=True
+        blank=True,
     )
     price = models.DecimalField(
         max_digits=10,
@@ -41,8 +43,10 @@ class Product(models.Model):
         verbose_name="Цена",
         help_text="Введите цену",
     )
-    created_at = models.DateField(auto_now_add=True, verbose_name="Дата создания")
-    updated_at = models.DateTimeField(auto_now=True, verbose_name="Дата последнего изменения")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания")
+    updated_at = models.DateTimeField(
+        auto_now=True, verbose_name="Дата последнего изменения"
+    )
 
     def __str__(self):
         return f"{self.product_name}: {self.price}"
