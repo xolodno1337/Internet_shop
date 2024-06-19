@@ -6,7 +6,7 @@
         "product_name": "Смартфон Apple iPhone 11 64GB nanoSim/eSim Black",
         "product_description": "Данная модель могла быть предварительно активирована. Является абсолютно новой, не проходила процедуру привязки аккаунта Apple ID.",
         "product_picture": "",
-        "product_category": 7,
+        "product_category": 10,
         "price": "50000.00",
         "created_at": "2024-06-04T13:04:07.045Z",
         "updated_at": "2024-06-04T13:04:07.045Z"
@@ -19,7 +19,7 @@
         "product_name": "Samsung Galaxy S24 Ultra 12/256GB Cobalt Violet",
         "product_description": "Смартфон Samsung Galaxy S24 Ultra 12/256GB Cobalt Violet дополнен искусственным интеллектом Galaxy AI, который позволяет быстро находить любые предметы с картинок в поиске Google",
         "product_picture": "",
-        "product_category": 7,
+        "product_category": 10,
         "price": "147000.00",
         "created_at": "2024-06-04T13:04:42.706Z",
         "updated_at": "2024-06-04T13:04:42.706Z"
@@ -32,7 +32,7 @@
         "product_name": "Sony PlayStation 5 Slim 1TB",
         "product_description": "PlayStation 5 готова раскрыть возможности некстгена благодаря впечатляющим характеристикам, принципиально отличающимся от консолей прошлого поколения.",
         "product_picture": "",
-        "product_category": 9,
+        "product_category": 12,
         "price": "70000.00",
         "created_at": "2024-06-04T13:05:32.164Z",
         "updated_at": "2024-06-04T13:05:32.164Z"
@@ -45,7 +45,7 @@
         "product_name": "Microsoft Xbox Series X 1TB",
         "product_description": "Игровая приставка Microsoft Xbox Series X — устройство с впечатляющей конфигурацией, сочетающейся с лаконичным внешним видом",
         "product_picture": "",
-        "product_category": 9,
+        "product_category": 12,
         "price": "64000.00",
         "created_at": "2024-06-04T13:06:27.014Z",
         "updated_at": "2024-06-04T13:06:27.014Z"
@@ -58,7 +58,7 @@
         "product_name": "Ноутбук игровой Thunderobot 911S Core D/15.6\"/Core i5-12450H/16/512/RTX 3050/noOS/Black",
         "product_description": "Все характеристики\r\nИгровой ноутбук Thunderobot 911S Core D JT009K00FRU — 15,6-дюймовая модель с IPS-матрицей и разрешением 1920х1080 пикселей.",
         "product_picture": "",
-        "product_category": 8,
+        "product_category": 11,
         "price": "70000.00",
         "created_at": "2024-06-04T13:07:29.334Z",
         "updated_at": "2024-06-04T13:07:29.334Z"
@@ -71,7 +71,7 @@
         "product_name": "Ноутбук HUAWEI MateBook D 16 i5/16/512 Space Gray (53013WXF)",
         "product_description": "HUAWEI MateBook D 16 оснащен без рамочным экраном с соотношением сторон 16:10, благодаря чему значительно увеличивается обзор.",
         "product_picture": "",
-        "product_category": 8,
+        "product_category": 11,
         "price": "64000.00",
         "created_at": "2024-06-04T13:08:42.813Z",
         "updated_at": "2024-06-04T13:08:42.813Z"
