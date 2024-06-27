@@ -3,13 +3,13 @@
     "model": "catalog.product",
     "pk": 13,
     "fields": {
-        "product_name": "�������� Apple iPhone 11 64GB nanoSim/eSim Black",
-        "product_description": "������ ������ ����� ���� �������������� ������������. �������� ��������� �����, �� ��������� ��������� �������� �������� Apple ID.",
-        "product_picture": "",
+        "product_name": "Apple iPhone 11 64GB nanoSim/eSim Black",
+        "product_description": "iPhone 11 - это смартфон, разработанный и продаваемый компанией Apple Inc. Это тринадцатое поколение iPhone, пришедшее на смену iPhone XR, и было представлено 10 сентября 2019 года вместе с более дорогим iPhone 11 Pro в театре Стива Джобса в Apple Park, Купертино, генеральным директором Apple Тимом Куком.",
+        "product_picture": "picture_product/iphone-11-black.jpg",
         "product_category": 10,
         "price": "50000.00",
-        "created_at": "2024-06-04T13:04:07.045Z",
-        "updated_at": "2024-06-04T13:04:07.045Z"
+        "created_at": "2024-06-19T07:55:40.687Z",
+        "updated_at": "2024-06-27T15:05:39.438Z"
     }
 },
 {
@@ -17,12 +17,12 @@
     "pk": 14,
     "fields": {
         "product_name": "Samsung Galaxy S24 Ultra 12/256GB Cobalt Violet",
-        "product_description": "�������� Samsung Galaxy S24 Ultra 12/256GB Cobalt Violet �������� ������������� ����������� Galaxy AI, ������� ��������� ������ �������� ����� �������� � �������� � ������ Google",
-        "product_picture": "",
+        "product_description": "В Samsung Galaxy S24 представляет собой серию смартфонов на базе Android высокого класса, разработанных, произведенных и продаваемых компанией Samsung Electronics как часть ее флагманской серии Galaxy S.",
+        "product_picture": "picture_product/1z9wbkbdjlne2olf079otxsl67bxg0tx.jpeg",
         "product_category": 10,
         "price": "147000.00",
-        "created_at": "2024-06-04T13:04:42.706Z",
-        "updated_at": "2024-06-04T13:04:42.706Z"
+        "created_at": "2024-06-19T07:55:40.687Z",
+        "updated_at": "2024-06-27T15:07:36.466Z"
     }
 },
 {
@@ -30,12 +30,12 @@
     "pk": 15,
     "fields": {
         "product_name": "Sony PlayStation 5 Slim 1TB",
-        "product_description": "PlayStation 5 ������ �������� ����������� ��������� ��������� ������������ ���������������, ������������� ������������ �� �������� �������� ���������.",
-        "product_picture": "",
+        "product_description": "Игровая приставка Sony PlayStation 5 Slim: улучшенный дизайн и расширенные возможности хранения данных\r\nОбновленная версия популярной консоли PlayStation 5, игровая приставка Sony PlayStation 5 Slim отличается улучшенным дизайном и расширенными возможностями хранения данных.",
+        "product_picture": "picture_product/maxresdefault.jpg",
         "product_category": 12,
         "price": "70000.00",
-        "created_at": "2024-06-04T13:05:32.164Z",
-        "updated_at": "2024-06-04T13:05:32.164Z"
+        "created_at": "2024-06-19T07:55:40.687Z",
+        "updated_at": "2024-06-27T15:08:40.730Z"
     }
 },
 {
@@ -43,38 +43,38 @@
     "pk": 16,
     "fields": {
         "product_name": "Microsoft Xbox Series X 1TB",
-        "product_description": "������� ��������� Microsoft Xbox Series X � ���������� � ������������ �������������, ������������ � ���������� ������� �����",
-        "product_picture": "",
+        "product_description": "Игровая приставка девятого поколения американской транснациональной корпорации Microsoft.\r\n\r\nSeries X и Series S являются новыми приставками в семействе игровых устройств Xbox и наследницами Xbox One. Выпуск обеих приставок состоялся 10 ноября 2020 года[3].",
+        "product_picture": "picture_product/1-245038.jpg",
         "product_category": 12,
         "price": "64000.00",
-        "created_at": "2024-06-04T13:06:27.014Z",
-        "updated_at": "2024-06-04T13:06:27.014Z"
+        "created_at": "2024-06-19T07:55:40.687Z",
+        "updated_at": "2024-06-27T15:06:31.256Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 17,
     "fields": {
-        "product_name": "������� ������� Thunderobot 911S Core D/15.6\"/Core i5-12450H/16/512/RTX 3050/noOS/Black",
-        "product_description": "��� ��������������\r\n������� ������� Thunderobot 911S Core D JT009K00FRU � 15,6-�������� ������ � IPS-�������� � ����������� 1920�1080 ��������.",
-        "product_picture": "",
+        "product_name": "Thunderobot 911S Core D/15.6\"/Core i5-12450H/16/512/RTX 3050/noOS/Black",
+        "product_description": "Эта модель предназначена экономным покупателям, а потому оснащена достаточно скромными по сегодняшним меркам процессором Intel Core i5-12450H и дискретным видеоадаптером NVIDIA GeForce RTX 3050 Laptop, а IPS-экран с диагональю 15,6\" поддерживает разрешение 1920×1080 (частота обновления 144 Гц)",
+        "product_picture": "picture_product/orig.jpeg",
         "product_category": 11,
         "price": "70000.00",
-        "created_at": "2024-06-04T13:07:29.334Z",
-        "updated_at": "2024-06-04T13:07:29.334Z"
+        "created_at": "2024-06-19T07:55:40.687Z",
+        "updated_at": "2024-06-27T15:09:37.454Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 18,
     "fields": {
-        "product_name": "������� HUAWEI MateBook D 16 i5/16/512 Space Gray (53013WXF)",
-        "product_description": "HUAWEI MateBook D 16 ������� ��� �������� ������� � ������������ ������ 16:10, ��������� ���� ����������� ������������� �����.",
-        "product_picture": "",
+        "product_name": "HUAWEI MateBook D 16 i5/16/512 Space Gray (53013WXF)",
+        "product_description": "Прост и удобен для удаленной работы. Производительность достаточно быстрая, переключается между вкладками без задержек. Яркий дисплей. Корпус ноутбука выполнен из металла, не греется при правильном использовании. Звук и картинка четкая, отличная слышимость.",
+        "product_picture": "picture_product/683545pjFT3kVjquCVZnHroCKM.jpeg",
         "product_category": 11,
         "price": "64000.00",
-        "created_at": "2024-06-04T13:08:42.813Z",
-        "updated_at": "2024-06-04T13:08:42.813Z"
+        "created_at": "2024-06-19T07:55:40.687Z",
+        "updated_at": "2024-06-27T15:05:45.326Z"
     }
 }
 ]
