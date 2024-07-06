@@ -1,6 +1,7 @@
 {% extends 'catalog/home.html' %}
 {% load my_tags %}
 {% block content %}
+<a class="btn btn-secondary my-2" href="{% url 'catalog:product_create' %}">Добавить продукт</a>
 <div class="row text-center">
     {% for product in object_list %}
     <div class="col-3">
@@ -15,7 +16,7 @@
                     <li> Стоимость - {{ product.price }}</li>
                     <li> Описание: {{ product.product_description | slice:100 }}</li>
                 </ul>
-                <a class="btn btn-secondary" href="{% url 'catalog:product_detail' product.pk %}"   role="button">Подробнее</a>
+                <a class="btn btn-secondary" href="{% url 'catalog:product_detail' product.pk %}" role="button">Подробнее</a>
                 <a class="btn btn-primary" role="button">Купить</a>
             </div>
         </div>
