@@ -20,10 +20,11 @@ class BlogCreateView(CreateView):
 
     def form_valid(self, form):
         if form.is_valid():
-            new_blog = form.save()
+            new_blog = form.save(commit=False)
             new_blog.slug = slugify(new_blog.title)
             new_blog.save()
         return super().form_valid(form)
+
 
 
 class BlogListView(ListView):
@@ -50,7 +51,7 @@ class BlogUpdateView(UpdateView):
 
     def form_valid(self, form):
         if form.is_valid():
-            new_blog = form.save()
+            new_blog = form.save(commit=False)
             new_blog.slug = slugify(new_blog.title)
             new_blog.save()
         return super().form_valid(form)
