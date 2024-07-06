@@ -26,7 +26,6 @@ class BlogCreateView(CreateView):
         return super().form_valid(form)
 
 
-
 class BlogListView(ListView):
     model = Blog
 

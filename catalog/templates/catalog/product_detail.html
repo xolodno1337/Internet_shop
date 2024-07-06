@@ -13,6 +13,9 @@
                     <li> Стоимость - {{ object.price }}</li>
                     <li> Описание: {{ object.product_description | slice:100 }}</li>
                 </ul>
+                <a class="btn btn-warning" href="{% url 'catalog:product_update' product.pk %}"
+                   role="button">Изменить</a>
+                <a class="btn btn-danger" href="{% url 'catalog:product_delete' product.pk %}" role="button">Удалить</a>
                 <a class="btn btn-secondary" href="{% url 'catalog:product_list' %}" role="button">Назад</a>
                 <a class="btn btn-primary" role="button">Купить</a>
             </div>
