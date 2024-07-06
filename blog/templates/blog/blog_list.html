@@ -12,7 +12,7 @@
                 <div class="col">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <img src="{{ blog.image | media_filter }}">
+                            <img src="{{ blog.image | media_filter }}"  width="200" height="100">
                             <p class="card-text">{{ blog.title | title }}</p>
                             <p class="card-text">Содержимое: {{ blog.body | title }}</p>
                             <p class="card-text">Дата создания: {{ blog.created_at }}</p>

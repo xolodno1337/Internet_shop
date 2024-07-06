@@ -19,7 +19,7 @@
                 <a class="btn btn-danger" href="{% url 'blog:delete' blog.pk %}" role="button">Удалить</a>
                 <a class="btn btn-secondary" href="{% url 'blog:blog_list' %}" role="button">Назад</a>
                 <a class="btn btn-success" href="{% url 'blog:toggle_active' blog.pk %}" role="button">
-                    {{ object.is_active|yesno:"Деактивировать,Активировать" }}
+                    {{ object.is_active|yesno:"Деактивировать, Активировать" }}
                 </a>
             </div>
         </div>
