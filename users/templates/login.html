@@ -10,8 +10,11 @@
                     {{ form.as_p}}
                 </div>
                 <button type="submit" class="btn btn-primary">
-                        Войти
+                    Войти
                 </button>
+                <a href="{% url 'users:reset_password' %}" type="submit" class="btn btn-warning">
+                    Восстановить пароль
+                </a>
             </div>
         </div>
     </form>
