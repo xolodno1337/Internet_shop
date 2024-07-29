@@ -50,6 +50,7 @@ class Product(models.Model):
     )
     owner = models.ForeignKey(User, verbose_name='Владелец', help_text='Укажите владельца продукта',
                               on_delete=models.CASCADE, blank=True, null=True)
+    is_published = models.BooleanField(default=False, blank=True, null=True, verbose_name="Опубликован")
 
     def __str__(self):
         return f"{self.product_name}: {self.price}"
@@ -58,6 +59,11 @@ class Product(models.Model):
         verbose_name = "Продукт"
         verbose_name_plural = "Продукты"
         ordering = ["product_name", "product_category", "price"]
+        permissions = [
+            ('can_edit_product_description', 'Can edit product description'),
+            ('can_edit_category', 'Can edit category'),
+            ('can_edit_is_published', 'Can edit is published'),
+        ]
 
 
 class Version(models.Model):
