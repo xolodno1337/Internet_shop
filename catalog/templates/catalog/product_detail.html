@@ -13,8 +13,10 @@
                     <li> Стоимость - {{ object.price }}</li>
                     <li> Описание: {{ object.product_description | slice:100 }}</li>
                 </ul>
+                {% if perms.catalog.can_edit_product_description and perms.catalog.can_edit_category and perms.catalog.can_edit_is_published or user == product.owner %}
                 <a class="btn btn-warning" href="{% url 'catalog:product_update' product.pk %}"
                    role="button">Изменить</a>
+                {% endif %}
                 <a class="btn btn-danger" href="{% url 'catalog:product_delete' product.pk %}" role="button">Удалить</a>
                 <a class="btn btn-secondary" href="{% url 'catalog:product_list' %}" role="button">Назад</a>
                 <a class="btn btn-primary" role="button">Купить</a>
