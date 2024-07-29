@@ -48,7 +48,8 @@ class Product(models.Model):
     updated_at = models.DateTimeField(
         auto_now=True, verbose_name="Дата последнего изменения"
     )
-    # owner = models.ForeignKey(User, verbose_name='Владелец', help_text='Укажите владельца продукта', on_delete=models.CASCADE, blank=True)
+    owner = models.ForeignKey(User, verbose_name='Владелец', help_text='Укажите владельца продукта',
+                              on_delete=models.CASCADE, blank=True, null=True)
 
     def __str__(self):
         return f"{self.product_name}: {self.price}"
