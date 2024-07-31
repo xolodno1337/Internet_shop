@@ -1,7 +1,6 @@
 import random
 import secrets
 import string
-
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse_lazy, reverse
@@ -43,8 +42,8 @@ def email_verification(request, token):
 
 def reset_password(request):
     context = {
-            'success_message': 'Пароль успешно сброшен. Новый пароль был отправлен на адрес Вашей электронной почты.',
-        }
+        'success_message': 'Пароль успешно сброшен. Новый пароль был отправлен на адрес Вашей электронной почты.',
+    }
 
     if request.method == 'POST':
         email = request.POST.get('email')
@@ -61,7 +60,7 @@ def reset_password(request):
             message=f'Ваш пароль для доступа на наш сайт изменен:\n {password}',
             from_email=EMAIL_HOST_USER,
             recipient_list=[user.email],
-            )
+        )
 
         return render(request, 'users/reset_password.html', context)
 
