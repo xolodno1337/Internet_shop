@@ -12,7 +12,7 @@ urlpatterns = [
     path("", ProductListView.as_view(), name="product_list"),
     path("create", ProductCreateView.as_view(), name="product_create"),
     path("update/<int:pk>/", ProductUpdateView.as_view(), name="product_update"),
-    path("delete/<int:pk>/", cache_page(60)(ProductDeleteView.as_view()), name="product_delete"),
-    path("product/<int:pk>/", ProductDetailView.as_view(), name="product_detail"),
+    path("delete/<int:pk>/", ProductDeleteView.as_view(), name="product_delete"),
+    path("product/<int:pk>/", cache_page(60)(ProductDetailView.as_view()), name="product_detail"),
     path('category/', CategoryListView.as_view(), name='category_list'),
 ]
